@@ -60,9 +60,10 @@ alembic/        -- DB 마이그레이션
 
 ## 외부 서비스 연결
 
-- Ollama: OLLAMA_BASE_URL 환경변수 (기본 http://localhost:11434)
-- PostgreSQL: DATABASE_URL 환경변수
-- Redis: REDIS_URL 환경변수
+- Ollama: `OLLAMA_BASE_URL` 환경변수
+- PostgreSQL: `DATABASE_URL` 환경변수
+- Redis: `REDIS_URL` 환경변수
+- 실제 접속 정보는 `.claude/settings.local.json` 또는 `.env` 참조 (git 미추적)
 
 ## 핵심 기능 (MVP)
 
